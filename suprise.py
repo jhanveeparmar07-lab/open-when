@@ -1,74 +1,90 @@
 import streamlit as st
-import datetime
 
-# Set page configuration
+# Page settings
 st.set_page_config(page_title="💌 Open When...", layout="centered")
 
-# Messages dictionary
+# Custom CSS for romantic look
+st.markdown("""
+    <style>
+    body {
+        background: linear-gradient(135deg, #ffe6f0, #ffd6f5);
+        color: #4a0033;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+    h2 {
+        text-align: center;
+        color: #d63384;
+    }
+    .stSelectbox label {
+        font-size: 1.1rem;
+        color: #ff4d94;
+    }
+    .stButton>button {
+        background-color: #ff66a3;
+        color: white;
+        border-radius: 12px;
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+        transition: 0.3s;
+    }
+    .stButton>button:hover {
+        background-color: #e60073;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# Messages
 messages = {
     "Open On Your First Day of Training 🩷": """🎯 *Open On Your First Day of Training*
 
-I’m so proud of you. I'm so happy for you, and it's so inspiring to watch you succeed.I’m so proud of you on your very first day of training. This is just the beginning of an amazing journey, and I know you’re going to shine brighter than ever. Remember, every step you take is a step closer to your dreams. I’m cheering for you every moment. — Your Girl 🩷
-
+I’m so proud of you...  
+Remember, every step you take is a step closer to your dreams.  
 — Your Girl 🩷""",
 
     "Open When You Miss Me 🩷": """💌 *Open When You Miss Me*
 
-Hey You,  
 Missing me? I’m missing you too — like crazy.  
 Imagine I’m hugging you right now.  
-Love you more than distance can handle.  
 — Your Girl 🩷""",
 
     "Open When You Can’t Sleep 🩷": """🌙 *Open When You Can’t Sleep*
 
-Can’t sleep?  
 Close your eyes and pretend I’m right there, holding your hand.  
 Sweet dreams, my night owl.  
 — Your Girl 🩷""",
 
     "Open When You’re Bored 🩷": """😄 *Open When You’re Bored*
 
-Bored already?  
-Think about our memories.  
-You can always text me too… I never get bored of you.  
+Think about our memories...  
+You can always text me too.  
 — Your Girl 🩷""",
 
     "Open When You Need to Smile 🩷": """😊 *Open When You Need to Smile*
 
 I miss that cute smile of yours.  
-Imagine that I am with you, and you are making fun of me.  
+Imagine that I am with you.  
 — Your Girl 🩷""",
 
     "Open When You Feel Alone 🩷": """🫂 *Open When You Feel Alone*
 
 You’re never alone.  
 I’m right here — in your heart, your mind, and every beat.  
-Just close your eyes and feel my love.  
-Always with you.  
 — Your Girl 🩷""",
 
     "Open On Your Last Day of Training 🩷": """🎉 *Open On Your Last Day of Training*
 
-These days without you weren't easy, but knowing you were chasing your dreams made it worth every second.  
-I missed you more than I ever thought possible, and I love you more than I can ever explain.  
-Thinking about hugging you soon.  
+These days without you weren't easy...  
 Let’s celebrate when you’re back!  
 — Your Girl 🩷"""
 }
 
-# Main app UI
-st.markdown("<h2 style='text-align: center;'>💌 Open When... </h2>", unsafe_allow_html=True)
+# Title
+st.markdown("<h2>💌 Open When... </h2>", unsafe_allow_html=True)
 
-# Select and display card
-st.markdown("### Select a card:")
-selected_card = st.selectbox(
-    "Select a card",
-    list(messages.keys()),
-    key="select_card",
-    label_visibility="collapsed"
-)
+# Card selector
+selected_card = st.selectbox("Pick a card to open:", list(messages.keys()))
 
-if st.button("📬 Open This Card", key="open_card_btn"):
+# Open button
+if st.button("📬 Open This Card"):
     st.markdown(messages[selected_card])
-    st.markdown("---")
+    st.markdown("❤ " * 20)

@@ -37,43 +37,48 @@ st.markdown("""
 messages = {
     "Open On Your First Day of Training 🩷": """🎯 *Open On Your First Day of Training*
 
-I’m so proud of you...  
-Remember, every step you take is a step closer to your dreams.  
+I’m so proud of you...I'm so happy for you, and it's so inspiring to watch you succed.  
+every step you take is a step closer to your dreams.  
 — Your Girl 🩷""",
 
     "Open When You Miss Me 🩷": """💌 *Open When You Miss Me*
 
 Missing me? I’m missing you too — like crazy.  
-Imagine I’m hugging you right now.  
+Imagine I’m hugging you right now. My heart's still with you,always.love you more than distance can handle.   
 — Your Girl 🩷""",
 
     "Open When You Can’t Sleep 🩷": """🌙 *Open When You Can’t Sleep*
 
-Close your eyes and pretend I’m right there, holding your hand.  
+can't sleep?
+Close your eyes and pretend I’m right there, holding your hand. 
+i'm probably thinking of you too.
 Sweet dreams, my night owl.  
 — Your Girl 🩷""",
 
     "Open When You’re Bored 🩷": """😄 *Open When You’re Bored*
 
 Think about our memories...  
-You can always text me too.  
+You can always text me too.I never bored of you.   
 — Your Girl 🩷""",
 
     "Open When You Need to Smile 🩷": """😊 *Open When You Need to Smile*
 
 I miss that cute smile of yours.  
-Imagine that I am with you.  
+Imagine that I am with you. 
 — Your Girl 🩷""",
 
     "Open When You Feel Alone 🩷": """🫂 *Open When You Feel Alone*
 
 You’re never alone.  
-I’m right here — in your heart, your mind, and every beat.  
+I’m right here — in your heart, your mind, and every beat. 
+Just close your eyes and feel my Love.
 — Your Girl 🩷""",
 
     "Open On Your Last Day of Training 🩷": """🎉 *Open On Your Last Day of Training*
 
-These days without you weren't easy...  
+These days without you weren't easy, but knowing you were chasing your dreams made it worth every second.
+I missed you more than I ever thought possible, and I love you more than I can ever explain.
+Thinking about hugging you soon.
 Let’s celebrate when you’re back!  
 — Your Girl 🩷"""
 }

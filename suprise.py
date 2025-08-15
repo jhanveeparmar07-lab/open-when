@@ -44,14 +44,14 @@ every step you take is a step closer to your dreams.
     "Open When You Miss Me 🩷": """💌 *Open When You Miss Me*
 
 Missing me? I’m missing you too — like crazy.  
-Imagine I’m hugging you right now. My heart's still with you,always.love you more than distance can handle.   
+Imagine I’m hugging you right now. My heart's still with you,always. Love you more than distance can handle.   
 — Your Girl 🩷""",
 
     "Open When You Can’t Sleep 🩷": """🌙 *Open When You Can’t Sleep*
 
-can't sleep?
+Can't sleep?
 Close your eyes and pretend I’m right there, holding your hand. 
-i'm probably thinking of you too.
+I'm probably thinking of you too.
 Sweet dreams, my night owl.  
 — Your Girl 🩷""",
 
@@ -70,8 +70,7 @@ Imagine that I am with you.
     "Open When You Feel Alone 🩷": """🫂 *Open When You Feel Alone*
 
 You’re never alone.  
-I’m right here — in your heart, your mind, and every beat. 
-Just close your eyes and feel my Love.
+I’m right here — in your heart, your mind, and every beat. Just close your eyes and feel my Love.
 — Your Girl 🩷""",
 
     "Open On Your Last Day of Training 🩷": """🎉 *Open On Your Last Day of Training*
